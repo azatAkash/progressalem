@@ -64,7 +64,7 @@ func printExtracted(htmlContent string) {
 	hours := extractDataHelper(htmlContent, "Hours:")
 	Life := extractDataHelper(htmlContent, "Life:")
 
-	fmt.Println("===================================")
+	fmt.Println("\n===================================")
 	fmt.Println("Login:", login)
 	fmt.Println("Hours:", hours)
 	fmt.Println("Life:", Life)
